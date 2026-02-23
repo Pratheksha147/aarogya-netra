@@ -1,0 +1,301 @@
+message,department
+Waiting too long in OPD today,OPD
+Waiting too long in OPD today,OPD
+Waiting too long in OPD,OPD
+Waiting too long in OPD this morning,OPD
+Waiting too long in OPD today,OPD
+Doctor appointment delayed in OPD during consultation,OPD
+Doctor appointment delayed in OPD when I came,OPD
+Doctor appointment delayed in OPD during my visit,OPD
+Doctor appointment delayed in OPD today,OPD
+Doctor appointment delayed in OPD this evening,OPD
+OPD registration process is slow for my appointment,OPD
+OPD registration process is slow this evening,OPD
+OPD registration process is slow yesterday,OPD
+OPD registration process is slow during my visit,OPD
+OPD registration process is slow for my appointment,OPD
+Long queue in OPD during my visit,OPD
+Long queue in OPD this morning,OPD
+Long queue in OPD during consultation,OPD
+Long queue in OPD,OPD
+Long queue in OPD,OPD
+OPD consultation took too much time,OPD
+OPD consultation took too much time,OPD
+OPD consultation took too much time this evening,OPD
+OPD consultation took too much time during consultation,OPD
+OPD consultation took too much time this evening,OPD
+No doctor available in OPD during consultation,OPD
+No doctor available in OPD this morning,OPD
+No doctor available in OPD for my appointment,OPD
+No doctor available in OPD yesterday,OPD
+No doctor available in OPD yesterday,OPD
+OPD token system not working for my appointment,OPD
+OPD token system not working today,OPD
+OPD token system not working this evening,OPD
+OPD token system not working during my visit,OPD
+OPD token system not working when I came,OPD
+Crowded OPD waiting area for my appointment,OPD
+Crowded OPD waiting area yesterday,OPD
+Crowded OPD waiting area for my appointment,OPD
+Crowded OPD waiting area this evening,OPD
+Crowded OPD waiting area today,OPD
+Appointment rescheduled in OPD this morning,OPD
+Appointment rescheduled in OPD for my appointment,OPD
+Appointment rescheduled in OPD when I came,OPD
+Appointment rescheduled in OPD during my visit,OPD
+Appointment rescheduled in OPD yesterday,OPD
+Delay before seeing doctor in OPD this morning,OPD
+Delay before seeing doctor in OPD yesterday,OPD
+Delay before seeing doctor in OPD,OPD
+Delay before seeing doctor in OPD this morning,OPD
+Delay before seeing doctor in OPD yesterday,OPD
+Billing process took too long yesterday,Billing
+Billing process took too long for my appointment,Billing
+Billing process took too long for my appointment,Billing
+Billing process took too long this evening,Billing
+Billing process took too long during my visit,Billing
+Incorrect charges in my bill during consultation,Billing
+Incorrect charges in my bill when I came,Billing
+Incorrect charges in my bill for my appointment,Billing
+Incorrect charges in my bill this evening,Billing
+Incorrect charges in my bill for my appointment,Billing
+Insurance claim not processed yesterday,Billing
+Insurance claim not processed this evening,Billing
+Insurance claim not processed for my appointment,Billing
+Insurance claim not processed during consultation,Billing
+Insurance claim not processed this evening,Billing
+Billing counter was slow during consultation,Billing
+Billing counter was slow for my appointment,Billing
+Billing counter was slow today,Billing
+Billing counter was slow yesterday,Billing
+Billing counter was slow this evening,Billing
+Overcharged for consultation during my visit,Billing
+Overcharged for consultation yesterday,Billing
+Overcharged for consultation today,Billing
+Overcharged for consultation this morning,Billing
+Overcharged for consultation during consultation,Billing
+Delay in generating final bill today,Billing
+Delay in generating final bill,Billing
+Delay in generating final bill when I came,Billing
+Delay in generating final bill during my visit,Billing
+Delay in generating final bill this morning,Billing
+Payment receipt confusion for my appointment,Billing
+Payment receipt confusion today,Billing
+Payment receipt confusion during consultation,Billing
+Payment receipt confusion this morning,Billing
+Payment receipt confusion during my visit,Billing
+Double charge applied today,Billing
+Double charge applied today,Billing
+Double charge applied during my visit,Billing
+Double charge applied yesterday,Billing
+Double charge applied when I came,Billing
+Refund not processed this evening,Billing
+Refund not processed during consultation,Billing
+Refund not processed,Billing
+Refund not processed during consultation,Billing
+Refund not processed today,Billing
+Billing system not working today,Billing
+Billing system not working this evening,Billing
+Billing system not working yesterday,Billing
+Billing system not working yesterday,Billing
+Billing system not working during my visit,Billing
+Nurse not responding properly for my appointment,Nursing
+Nurse not responding properly for my appointment,Nursing
+Nurse not responding properly during my visit,Nursing
+Nurse not responding properly today,Nursing
+Nurse not responding properly this evening,Nursing
+Nursing staff was helpful,Nursing
+Nursing staff was helpful yesterday,Nursing
+Nursing staff was helpful during my visit,Nursing
+Nursing staff was helpful this evening,Nursing
+Nursing staff was helpful when I came,Nursing
+Delay in nurse assistance today,Nursing
+Delay in nurse assistance during my visit,Nursing
+Delay in nurse assistance,Nursing
+Delay in nurse assistance this morning,Nursing
+Delay in nurse assistance this evening,Nursing
+Nurse did not attend on time,Nursing
+Nurse did not attend on time yesterday,Nursing
+Nurse did not attend on time during consultation,Nursing
+Nurse did not attend on time when I came,Nursing
+Nurse did not attend on time today,Nursing
+Nursing care was excellent this morning,Nursing
+Nursing care was excellent during my visit,Nursing
+Nursing care was excellent this morning,Nursing
+Nursing care was excellent when I came,Nursing
+Nursing care was excellent for my appointment,Nursing
+Poor communication from nurse when I came,Nursing
+Poor communication from nurse this evening,Nursing
+Poor communication from nurse this evening,Nursing
+Poor communication from nurse during my visit,Nursing
+Poor communication from nurse during consultation,Nursing
+Nursing support was good this evening,Nursing
+Nursing support was good this morning,Nursing
+Nursing support was good,Nursing
+Nursing support was good this evening,Nursing
+Nursing support was good yesterday,Nursing
+Rude nursing staff today,Nursing
+Rude nursing staff during consultation,Nursing
+Rude nursing staff today,Nursing
+Rude nursing staff,Nursing
+Rude nursing staff for my appointment,Nursing
+Medication not explained properly today,Nursing
+Medication not explained properly this evening,Nursing
+Medication not explained properly this morning,Nursing
+Medication not explained properly this morning,Nursing
+Medication not explained properly when I came,Nursing
+Need better nursing attention,Nursing
+Need better nursing attention when I came,Nursing
+Need better nursing attention this morning,Nursing
+Need better nursing attention this evening,Nursing
+Need better nursing attention this evening,Nursing
+Medicine not available in pharmacy this evening,Pharmacy
+Medicine not available in pharmacy for my appointment,Pharmacy
+Medicine not available in pharmacy,Pharmacy
+Medicine not available in pharmacy this evening,Pharmacy
+Medicine not available in pharmacy this evening,Pharmacy
+Pharmacy queue too long this evening,Pharmacy
+Pharmacy queue too long today,Pharmacy
+Pharmacy queue too long today,Pharmacy
+Pharmacy queue too long this evening,Pharmacy
+Pharmacy queue too long during my visit,Pharmacy
+Wrong medicine given this evening,Pharmacy
+Wrong medicine given during my visit,Pharmacy
+Wrong medicine given today,Pharmacy
+Wrong medicine given today,Pharmacy
+Wrong medicine given when I came,Pharmacy
+Delay in getting medicines today,Pharmacy
+Delay in getting medicines today,Pharmacy
+Delay in getting medicines this evening,Pharmacy
+Delay in getting medicines during my visit,Pharmacy
+Delay in getting medicines,Pharmacy
+Pharmacy staff helpful this evening,Pharmacy
+Pharmacy staff helpful this evening,Pharmacy
+Pharmacy staff helpful this morning,Pharmacy
+Pharmacy staff helpful during my visit,Pharmacy
+Pharmacy staff helpful this evening,Pharmacy
+Prescription not found during my visit,Pharmacy
+Prescription not found during my visit,Pharmacy
+Prescription not found during consultation,Pharmacy
+Prescription not found when I came,Pharmacy
+Prescription not found for my appointment,Pharmacy
+Pharmacy closed early this evening,Pharmacy
+Pharmacy closed early during my visit,Pharmacy
+Pharmacy closed early for my appointment,Pharmacy
+Pharmacy closed early,Pharmacy
+Pharmacy closed early when I came,Pharmacy
+High medicine cost this evening,Pharmacy
+High medicine cost during my visit,Pharmacy
+High medicine cost this morning,Pharmacy
+High medicine cost this evening,Pharmacy
+High medicine cost yesterday,Pharmacy
+Pharmacy billing mismatch during consultation,Pharmacy
+Pharmacy billing mismatch yesterday,Pharmacy
+Pharmacy billing mismatch when I came,Pharmacy
+Pharmacy billing mismatch this morning,Pharmacy
+Pharmacy billing mismatch this evening,Pharmacy
+Medicine stock issue,Pharmacy
+Medicine stock issue for my appointment,Pharmacy
+Medicine stock issue when I came,Pharmacy
+Medicine stock issue during my visit,Pharmacy
+Medicine stock issue this morning,Pharmacy
+Hospital cleanliness poor during consultation,Facilities
+Hospital cleanliness poor this morning,Facilities
+Hospital cleanliness poor during consultation,Facilities
+Hospital cleanliness poor when I came,Facilities
+Hospital cleanliness poor this evening,Facilities
+Restroom not clean during consultation,Facilities
+Restroom not clean yesterday,Facilities
+Restroom not clean this evening,Facilities
+Restroom not clean during consultation,Facilities
+Restroom not clean,Facilities
+Waiting area dirty today,Facilities
+Waiting area dirty for my appointment,Facilities
+Waiting area dirty this morning,Facilities
+Waiting area dirty when I came,Facilities
+Waiting area dirty during consultation,Facilities
+Air conditioning not working this evening,Facilities
+Air conditioning not working during my visit,Facilities
+Air conditioning not working during consultation,Facilities
+Air conditioning not working yesterday,Facilities
+Air conditioning not working today,Facilities
+Lift not functioning for my appointment,Facilities
+Lift not functioning when I came,Facilities
+Lift not functioning yesterday,Facilities
+Lift not functioning this morning,Facilities
+Lift not functioning yesterday,Facilities
+Water leakage in corridor during my visit,Facilities
+Water leakage in corridor when I came,Facilities
+Water leakage in corridor this evening,Facilities
+Water leakage in corridor this evening,Facilities
+Water leakage in corridor,Facilities
+Room maintenance issue yesterday,Facilities
+Room maintenance issue yesterday,Facilities
+Room maintenance issue during my visit,Facilities
+Room maintenance issue today,Facilities
+Room maintenance issue during consultation,Facilities
+Poor hygiene in hospital today,Facilities
+Poor hygiene in hospital for my appointment,Facilities
+Poor hygiene in hospital this morning,Facilities
+Poor hygiene in hospital,Facilities
+Poor hygiene in hospital when I came,Facilities
+Dust in patient room,Facilities
+Dust in patient room this evening,Facilities
+Dust in patient room yesterday,Facilities
+Dust in patient room this evening,Facilities
+Dust in patient room this morning,Facilities
+Sanitization not done properly when I came,Facilities
+Sanitization not done properly yesterday,Facilities
+Sanitization not done properly for my appointment,Facilities
+Sanitization not done properly this morning,Facilities
+Sanitization not done properly today,Facilities
+Reception staff helpful yesterday,General Services
+Reception staff helpful yesterday,General Services
+Reception staff helpful when I came,General Services
+Reception staff helpful during consultation,General Services
+Reception staff helpful yesterday,General Services
+Security behavior good today,General Services
+Security behavior good this morning,General Services
+Security behavior good during consultation,General Services
+Security behavior good this evening,General Services
+Security behavior good for my appointment,General Services
+Parking facility inadequate today,General Services
+Parking facility inadequate,General Services
+Parking facility inadequate when I came,General Services
+Parking facility inadequate for my appointment,General Services
+Parking facility inadequate during my visit,General Services
+Overall service satisfactory for my appointment,General Services
+Overall service satisfactory this morning,General Services
+Overall service satisfactory during consultation,General Services
+Overall service satisfactory today,General Services
+Overall service satisfactory during my visit,General Services
+Difficulty finding department during my visit,General Services
+Difficulty finding department this evening,General Services
+Difficulty finding department today,General Services
+Difficulty finding department this morning,General Services
+Difficulty finding department today,General Services
+Information desk confusing for my appointment,General Services
+Information desk confusing when I came,General Services
+Information desk confusing yesterday,General Services
+Information desk confusing for my appointment,General Services
+Information desk confusing this morning,General Services
+Hospital signage unclear when I came,General Services
+Hospital signage unclear,General Services
+Hospital signage unclear this morning,General Services
+Hospital signage unclear for my appointment,General Services
+Hospital signage unclear yesterday,General Services
+Enquiry counter slow today,General Services
+Enquiry counter slow this morning,General Services
+Enquiry counter slow during my visit,General Services
+Enquiry counter slow this evening,General Services
+Enquiry counter slow,General Services
+Crowd management poor during consultation,General Services
+Crowd management poor this morning,General Services
+Crowd management poor this morning,General Services
+Crowd management poor this evening,General Services
+Crowd management poor during consultation,General Services
+Overall experience average this evening,General Services
+Overall experience average this evening,General Services
+Overall experience average this morning,General Services
+Overall experience average this morning,General Services
+Overall experience average yesterday,General Services
