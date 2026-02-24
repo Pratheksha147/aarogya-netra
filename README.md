@@ -1,204 +1,86 @@
 🚑 Aarogya-Netra
-AI-Driven Patient Feedback & Automated Service Recovery Platform
+AI-Powered Patient Feedback Intelligence & Automated Service Recovery Platform
 
-Track: Care & Cure (Track 3)
-Team: Dev 404 Crew
-Impact-AI-THON 2026
+Transforming patient feedback into real-time, actionable healthcare improvement.
 
-📌 Problem Statement
+📌 Overview
 
-Hospitals collect patient feedback from multiple sources such as:
+Aarogya-Netra is an AI-driven Patient Experience Analytics & Automated Service Recovery System that helps hospitals:
 
-Google Reviews
+Centralize multi-channel patient feedback
 
-Call Centers
+Detect negative sentiment spikes early
 
-Social Media
+Classify recurring operational issues
 
-Surveys
+Automatically generate service recovery cases
 
-Internal Reports
+Track SLA-based accountability
 
-However, this feedback:
+Measure measurable impact after resolution
 
-Is scattered across platforms
+🧠 Problem Statement
 
-Is manually analyzed
+Hospitals receive feedback from:
 
-Lacks real-time intelligence
+WhatsApp
 
-Does not trigger immediate service recovery
+Emails
 
-This leads to:
+Call center logs
 
-Delayed issue resolution
+Online reviews
 
-Poor patient experience
+Internal reports
 
-Financial & reputational loss
+But:
 
-Reduced patient trust
+Feedback is scattered
 
-💡 Solution Overview
+Analysis is manual
 
-Aarogya-Netra is an AI-driven Patient Experience Analytics & Automated Service Recovery Platform.
+No real-time intelligence
 
-It:
+No automatic accountability
 
-Unifies multi-channel feedback into one intelligent system
+This leads to delayed response and declining patient satisfaction.
 
-Applies AI-based sentiment analysis
+💡 Our Solution
 
-Detects issue patterns across departments
+Aarogya-Netra provides:
 
-Automatically triggers service recovery workflows
+✅ Unified feedback gateway
+✅ AI-powered sentiment analysis (VADER)
+✅ ML-based issue classification (SVM)
+✅ TF-IDF feature extraction
+✅ Automated case generation
+✅ SLA tracking
+✅ Executive analytics dashboard
 
-Tracks SLA compliance
-
-Measures impact before and after intervention
-
-🔁 Complete Workflow
-🔹 Phase 1 – Hospital Onboarding
-
-Hospital registers on platform
-
-Departments configured (OPD, Billing, Nursing, etc.)
-
-SLA rules defined
-
-System generates:
-
-Hospital ID
-
-Dedicated feedback email
-
-WhatsApp feedback number
-
-🔹 Phase 2 – Real-Time Feedback Collection
-1️⃣ WhatsApp-Based Feedback
-
-Patient sends message via WhatsApp
-
-Message → Twilio Webhook → Flask API → Database
-
-Stored with timestamp & department
-
-2️⃣ Email-Based Unified Feedback
-
-PR / Call Center / Social Team sends structured email
-
-Email Listener extracts:
-
-Source
-
-Department
-
-Feedback text
-
-Stored in unified format
-
-🔹 Phase 3 – Unified Data Pipeline
-
-All feedback converted into a common structure:
-
-{
-  "source": "",
-  "department": "",
-  "text": "",
-  "timestamp": ""
-}
-
-From here, source differences disappear.
-The system works on one unified feedback stream.
-
-🔹 Phase 4 – AI Processing
-✔ Preprocessing
-
-Remove sensitive data (PII)
-
-Lowercasing
-
-Stopword removal
-
-✔ Sentiment Analysis
-
-VADER / BERT
-
-Sentiment score tracking
-
-Trend monitoring
-
-✔ Issue Clustering
-
-TF-IDF + KMeans
-
-Groups similar complaints
-
-Detects systemic issues
-
-✔ Spike Detection
-
-Moving average logic
-
-Automatic negative sentiment surge alerts
-
-🔹 Phase 5 – Automated Service Recovery
-
-Negative feedback auto-creates a service case
-
-Department assigned
-
-SLA timer starts
-
-Case flow:
-
-Open → In Progress → Resolved
-🔹 Phase 6 – Closed Loop Communication
-
-WhatsApp auto-acknowledgement
-
-Call follow-up logging
-
-PR response tracking
-
-Resolution tracked even if direct reply not possible
-
-🔹 Phase 7 – Executive Analytics Dashboard
-
-Displays:
-
-Overall patient sentiment
-
-Department-wise heatmap
-
-Active alerts
-
-SLA compliance
-
-Sentiment before vs after intervention
-
+🏗️ System Architecture
+Patient / Staff
+      ↓
+WhatsApp / Email
+      ↓
+Flask REST API
+      ↓
+AI Layer (TF-IDF + SVM + VADER)
+      ↓
+MySQL Database
+      ↓
+React + TypeScript Dashboard
 🧩 Tech Stack
 🔹 Frontend
 
-HTML5
+React
 
-CSS3
+TypeScript
 
-JavaScript (Vanilla JS)
+Axios (API integration)
 
 Chart.js
 
-Fetch API
-
-Pages:
-
-Login
-
-Department Dashboard
-
-Case Management
-
-Executive Dashboard
+CSS / Tailwind
 
 🔹 Backend
 
@@ -206,116 +88,189 @@ Python
 
 Flask
 
-Flask-JWT (Authentication)
+MySQL Connector
 
-SQLAlchemy
+🔹 AI / Machine Learning
 
-🔹 Database
+TF-IDF (Text Feature Extraction)
 
-MySQL / SQL Server
+Support Vector Machine (SVM) – Issue Classification
 
-Main Tables:
-
-hospitals
-
-departments
-
-users
-
-feedback
-
-issues
-
-service_cases
-
-alerts
-
-sentiment_logs
-
-🔹 AI & NLP
-
-NLTK / spaCy
+VADER – Sentiment Analysis
 
 Scikit-learn
 
-VADER
+Pandas / NumPy
 
-TF-IDF
+🔹 Database
 
-KMeans
-
-Logistic Regression
-
-BERT / Sentence Transformers
+MySQL
 
 🔹 Integrations
 
 Twilio WhatsApp API
 
-Gmail IMAP (Email Listener)
+IMAP (Email Listener)
 
-SMTP Alerts
+SMTP (Alerts)
 
-🚀 Installation Guide
-1️⃣ Clone Repository
-git clone <your-repo-url>
-cd aarogya-netra
-2️⃣ Backend Setup
+⚙️ How It Works
+1️⃣ Feedback Collection
+
+All incoming feedback (WhatsApp / Email) is normalized into:
+
+{
+  "source": "",
+  "department": "",
+  "text": "",
+  "timestamp": ""
+}
+2️⃣ AI Processing
+✔ Preprocessing
+
+Lowercasing
+
+Cleaning text
+
+Removing noise
+
+✔ TF-IDF
+
+Converts text into numerical vectors.
+
+✔ SVM Classification
+
+Classifies issue category:
+
+Waiting Time
+
+Billing
+
+Staff Behaviour
+
+Facilities
+
+✔ VADER Sentiment
+
+Outputs:
+
+Positive
+
+Neutral
+
+Negative
+
+Compound score
+
+3️⃣ Automated Service Recovery
+
+If:
+
+Sentiment = Negative
+
+Sentiment spike detected
+
+System:
+
+Auto-creates service case
+
+Assigns department
+
+Starts SLA timer
+
+Tracks resolution
+
+Case Flow:
+
+Open → In Progress → Resolved
+📊 Dashboard Modules
+Department View
+
+Assigned cases
+
+SLA countdown
+
+Update status
+
+Add resolution notes
+
+Executive View
+
+Overall sentiment trends
+
+Department-wise heatmap
+
+Active alerts
+
+SLA compliance metrics
+
+Before vs After sentiment comparison
+
+🚀 Project Structure
+aarogya-netra/
+│
+├── backend/
+│   ├── app.py
+│   ├── ai_pipeline.py
+│   ├── email_listener.py
+│   ├── whatsapp_webhook.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── package.json
+│
+└── README.md
+🖥️ How To Run The Project
+🔹 Backend Setup
+1️⃣ Navigate to backend
+cd backend
+2️⃣ Create virtual environment
 python -m venv venv
 venv\Scripts\activate
+3️⃣ Install dependencies
 pip install -r requirements.txt
+4️⃣ Configure Environment Variables
 
 Create .env file:
 
-TWILIO_ACCOUNT_SID=
-TWILIO_AUTH_TOKEN=
-EMAIL_USER=
-EMAIL_PASS=
 DB_HOST=
 DB_USER=
 DB_PASSWORD=
 DB_NAME=
-
-Run:
-
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+EMAIL_USER=
+EMAIL_PASS=
+5️⃣ Run Flask Server
 python app.py
-3️⃣ Frontend
 
-Open index.html
-Or use Live Server in VS Code
+Backend runs on:
 
-📊 Key Features
+http://localhost:5000
+🔹 Frontend Setup
+1️⃣ Navigate to frontend
+cd frontend
+2️⃣ Install dependencies
+npm install
+3️⃣ Start React server
+npm start
 
-✅ Real-time feedback ingestion
-✅ Source-agnostic AI intelligence
-✅ Automatic case creation
-✅ SLA tracking
-✅ Spike detection
-✅ Closed-loop resolution
-✅ Impact measurement
-✅ Executive analytics
+Frontend runs on:
 
-🎯 Innovation Highlights
+http://localhost:8080
+📈 Key Innovations
 
-Email-based unified gateway (no scraping required)
-
-Cross-channel issue clustering
-
-24–48 hour negative sentiment early warning
-
-Measurable before-after sentiment comparison
-
-Automated accountability via SLA tracking
-
-👩‍💻 Team Dev 404 Crew
-
-R Nisshitha – AI/ML Model Engineer
-
-Pratheksha R D – Backend Developer
-
-Jiya Chandrapu – Frontend Developer
+🔹 Real-time WhatsApp ingestion
+🔹 Unified email-based feedback gateway
+🔹 ML-driven issue classification
+🔹 Sentiment spike early-warning
+🔹 Automated SLA enforcement
+🔹 Closed-loop measurable impact
 
 🏥 Vision
 
-To transform patient feedback from passive data into
-real-time, AI-powered service improvemen
+To convert scattered patient feedback into
+structured, AI-powered healthcare improvement intelligence.
